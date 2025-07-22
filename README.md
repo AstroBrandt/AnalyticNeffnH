@@ -1,5 +1,5 @@
 # Estimating attenuating column density from number density
-This repository contains an example Jupyter notebook to demonstrate a few different types of calculations using the analytic method presented in Gaches 2025 (A&A submitted). The method requires a number of parameter inputs, many of which can be derived from macroscopic investigations of a molecular cloud, such as the linewidth-size relation, virial parameter, and temperature (or sound speed).
+This repository contains an example Jupyter notebook to demonstrate a few different types of calculations using the analytic method presented in Gaches 2025 (A&A accepted). The method requires a number of parameter inputs, many of which can be derived from macroscopic investigations of a molecular cloud, such as the linewidth-size relation, virial parameter, and temperature (or sound speed).
 
 ## Example notebook
 The example notebook uses astropy for units (which is useful for good sanity checks!), along with matplotlib, numpy and scipy. It currently also uses cmasher for a colormap for the parameter space plot. If you do not have cmasher, you should get it anyways since it's a wonderful colormap package for python! If you still don't want to, you can just change the colormap in that plot to anything you like (matplotlib's viridis is closest).
